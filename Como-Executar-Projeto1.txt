@@ -1,0 +1,7 @@
+
+# Para treinar o agente:
+python treino.py --treina-stock data/GOOGL.csv --val-stock data/GOOGL_2018.csv
+
+
+# Para executar o agente
+python executa.py --executa-stock data/AMZN.csv --window-size 10 --model-name modelo_stock_50
