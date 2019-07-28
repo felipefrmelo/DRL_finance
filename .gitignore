@@ -102,3 +102,12 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+data/NFLX.csv
+data/AAPL_2018.csv
+data/AMZN.csv
+data/GOOGL.csv
+data/GOOGL_2018.csv
+data/HPQ.csv
+data/IBM.csv
+data/PTBR.csv
+data/TSLA.csv
