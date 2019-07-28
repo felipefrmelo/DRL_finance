@@ -24,6 +24,6 @@ class FeatureExtractor:
         self.df['mean_value'] = self.indicators.get_rolling_mean_value(sma, normalized=normalized)
         self.df['mean_value_41'] = self.indicators.get_rolling_mean_value(sma_41, normalized=normalized)
         self.df['mean_value_66'] = self.indicators.get_rolling_mean_value(sma_66, normalized=normalized)
-        self.df['momentum_value'] = self.indicators.get_momentum_value(n=5, normalized=normalized)
+        self.df['momentum_value'] = self.indicators.get_momentum_value(n=5, normalized=False)
         self.df['rsi_value'] = self.indicators.get_rsi_value()
         return self.df 
