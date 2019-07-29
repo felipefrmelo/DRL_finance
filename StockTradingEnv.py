@@ -50,6 +50,7 @@ class StockTradingEnv(gym.Env):
 
         # selected manual fetuares
         self.closingPrices = self.df['close'].values
+        self.closingPrices[env.closingPrices==0] = self.closingPrices.mean()
         self.feature_list = [
             'ret_day',
             'bnds_value',
